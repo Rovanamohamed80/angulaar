@@ -1,0 +1,13 @@
+.about{
+    padding: 140px;
+    background-color: #1abc9c;
+    position: relative;
+}
+.line::after{
+ content: "";
+ width: 85px;
+ height: 3px;
+ background-color: white;
+ position: absolute;
+
+}

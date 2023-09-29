@@ -1,0 +1,25 @@
+img{
+    width: 340px;
+    height: 246px;
+}
+.container{
+    padding-top: 130px;
+}
+.line::after{
+    content: "";
+    width: 85px;
+    height: 3px;
+    background-color: rgb(44, 62, 80);;
+    position: absolute;
+   
+}
+
+.layer {
+    background-color: #1abc9ce6;
+    opacity: 0;
+    cursor: pointer;
+    transition: .6s opacity;
+}
+.layer:hover{
+    opacity: 1;
+}

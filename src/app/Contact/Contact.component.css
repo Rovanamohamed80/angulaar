@@ -1,0 +1,48 @@
+.line::after{
+    content: "";
+    width: 85px;
+    height: 3px;
+    background-color: rgb(44, 62, 80);;
+    position: absolute;
+   
+   }
+.contact{
+       padding-top:130px ;
+}
+
+.field-holder{
+    margin-bottom: 50px;
+}
+.btn{
+    background-color: #1abc9c;
+
+    
+}
+input , label{
+    height: 55px;
+    width: 100%;
+}
+.form-control:focus{
+    box-shadow: none;
+
+
+}
+
+label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color:transparent;
+    cursor: text;
+    display: flex;
+    align-items: center;
+
+}
+
+input:focus + label{
+    color: #1abc9c;
+    top: -40px;
+    display: block;
+    transition: 0.6s all;
+
+}
